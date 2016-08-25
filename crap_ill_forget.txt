@@ -67,3 +67,5 @@ on puppet10002
 curl -G -H "Accept: application/json" 'http://localhost:8080/v2/facts' --data-urlencode 'query=["=", "name", "operatingsystem"]'
 curl -G -H "Accept: application/json" 'http://localhost:8080/v2/facts' --data-urlencode 'query=["and",["=","certname","beta-weed10001.bos.netledger.com"],["=","name","uptime_hours"]]'
 
+
+
